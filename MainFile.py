@@ -24,8 +24,8 @@ from sklearn import tree
 
 
 import math
-df=pd.read_csv('D:\Project Final\Stage2Lower.csv',index_col=0)
-tf=pd.read_csv('D:\Project Final\WithoutGrossLower.csv',index_col=0)
+df=pd.read_csv('Stage2Lower.csv',index_col=0)
+tf=pd.read_csv('WithoutGrossLower.csv',index_col=0)
 print("******************Welcome to Movie Success Predictor*******************")
 
 actor1=input('Enter Actor 1 Name: ')
